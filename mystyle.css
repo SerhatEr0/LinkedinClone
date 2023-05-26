@@ -1,0 +1,313 @@
+body {
+  background-color: #f3f2ef;
+}
+.kap {
+  display: flex; /* İçeriği ortalamak için */
+  justify-content: center; /* İçeriği yatayda ortalamak için */
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+}
+.paylasim {
+  background-color: #fff;
+  padding-top: 10px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+.btn-light {
+  background-color: #fff;
+  border: 0px;
+}
+.kard {
+  background-color: #f3f2ef;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 430px;
+  margin-top: -110px;
+  border: 1px solid #dee2e6;
+}
+.den {
+  width: 72px;
+  height: 72px;
+  margin-left: 75px;
+  margin-top: -40px;
+  border-radius: 50%;
+}
+.card-body {
+  background-color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.card-title {
+  text-align: center;
+  margin-top: 20px;
+  color: #000000e6;
+  font-size: 17px;
+}
+.card-text {
+  text-align: center;
+  color: #00000099;
+  font-size: 13px;
+}
+
+.list-group-item {
+  font-size: 13px;
+}
+.list-group-item:hover {
+  background-color: #d3d2d2;
+}
+
+.list-group-item-action:hover {
+  background-color: #fff;
+}
+.a2 {
+  text-decoration: none;
+}
+.a2:hover {
+  text-decoration: underline;
+}
+.a3 {
+  text-decoration: none;
+}
+.profile-card {
+  display: flex;
+  margin-left: 1210px;
+
+  margin-top: -485px;
+  position: relative;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  z-index: 2; /* Z-index değeri ile profilden önce görüntülenmesini sağlayın */
+}
+
+.follow-button {
+  margin-top: -10px;
+  background-color: #fff;
+  color: #00000099;
+  width: 106.31px;
+  height: 32px;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: #f3f2ef;
+  border: 2px solid #000;
+}
+
+.profile-picture {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.prolar {
+  width: 300px;
+  height: 374px;
+  background-color: #fff;
+  margin-left: 1258px;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: -544px;
+  border: 1px solid #dee2e6;
+}
+
+.ok:hover {
+  text-align: center;
+}
+.link {
+  width: 252px;
+  height: 95.97px;
+  margin-left: 1270px;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 13px;
+}
+.link2 {
+  text-decoration: none;
+  color: #00000099;
+  padding-left: 5px;
+}
+
+.link2:hover {
+  text-decoration: underline;
+  color: #1558cb;
+}
+.navbar {
+  padding-top: 10px;
+
+  height: 53px;
+}
+
+.nav-item {
+  font-size: 11px;
+  padding-left: 15px;
+
+  text-align: center;
+  display: flex; /* İçeriği ortalamak için */
+  justify-content: center; /* İçeriği yatayda ortalamak için */
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+}
+.container-fluid {
+  text-align: center;
+  display: flex; /* İçeriği ortalamak için */
+  justify-content: center; /* İçeriği yatayda ortalamak için */
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+}
+.nav-link {
+  color: #00000099;
+}
+.fa-solid:hover {
+  color: #000;
+}
+.custom-nav {
+  background-color: #fff;
+}
+.msj {
+  position: fixed;
+  background-color: #fff;
+  padding-right: 220px;
+  margin-left: 1630px;
+  margin-top: 310px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.yuvarlak-resim {
+  bottom: 20px;
+  right: 500px;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+
+.ic {
+  position: fixed;
+  margin-left: 170px;
+  margin-top: -30px;
+}
+
+.container {
+  position: relative;
+  width: 520px;
+  height: 16px;
+  margin-top: -375px;
+  right: 65px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  right: 110px;
+  height: 2px;
+  background-color: #1d1b1b14;
+}
+
+.text {
+  top: 50%;
+  right: 0;
+  transform: translateX(50%);
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 400px;
+  font-size: 11px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: white;
+  width: 555px;
+  height: 100px;
+  border-radius: 10px;
+
+  margin-left: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+.u {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+.u:hover {
+  color: #1558cb;
+  text-decoration: underline;
+}
+
+.gun {
+  width: 555px;
+  height: 693.75px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.beg {
+  margin-left: 30px;
+}
+.beg2 {
+  position: absolute;
+  margin-left: 360px;
+  font-size: 13px;
+  color: #00000099;
+  text-decoration: none;
+}
+.beg2:hover {
+  text-decoration: underline;
+  color: #1558cb;
+}
+.beg3 {
+  position: absolute;
+  margin-left: 430px;
+  color: #00000099;
+  font-size: 13px;
+  text-decoration: none;
+}
+.beg3:hover {
+  text-decoration: underline;
+  color: #1558cb;
+}
+.bega {
+  width: 555px;
+  height: 91px;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+.button {
+  width: 121.72px;
+  height: 48px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  color: #00000099;
+  font-size: 14px;
+  text-align: center;
+  line-height: 48px;
+  display: inline-block;
+  margin-top: -20px;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #ccc;
+}
